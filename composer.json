@@ -8,11 +8,11 @@
         "br",
         "nl2br",
         "filter",
-        "new line",
+        "new line"
     ],    
     "homepage": "https://github.com/BFolliot/Zf-Nl2br",    
     "require": {
-        "php": ">=5.3.3.",
+        "php": ">=5.3.3."
     },
     "authors": [
         {
@@ -27,5 +27,5 @@
         "classmap": [
             "./Module.php"
         ]
-    },
+    }
 }
