@@ -1,0 +1,31 @@
+{
+    "name": "bfolliot/zf-nl2br",
+    "description": "Provides a ZF2 filter for the php nl2br function",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "html",
+        "br",
+        "nl2br",
+        "filter",
+        "new line",
+    ],    
+    "homepage": "https://github.com/BFolliot/Zf-Nl2br",    
+    "require": {
+        "php": ">=5.3.3.",
+    },
+    "authors": [
+        {
+            "name": "Bryan Folliot",
+            "email": "dev@bryanfolliot.fr"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "BFolliot\\ZfNl2br": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    },
+}
